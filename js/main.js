@@ -227,13 +227,15 @@ function submitBookForm(e) {
 /* ─── LIGHTBOX ─────────────────────────────────────── */
 const galleryImages = [
   { src: 'images/car-wash-hero.webp', alt: 'Car washing and snow foam wash at Shiv Automobiles Naitale Niphad' },
-  { src: 'images/gallery-1.webp', alt: 'Engine repair at Shiv Automobiles workshop' },
-  { src: 'images/gallery-2.webp', alt: 'Car AC repair and gas filling service' },
-  { src: 'images/gallery-3.webp', alt: 'Denting and painting work' },
+  { src: 'images/gallery-1.webp', alt: 'Maruti Suzuki Swift Dzire service at Shiv Automobiles workshop' },
+  { src: 'images/gallery-2.webp', alt: 'Car AC repair and compressor testing service' },
+  { src: 'images/gallery-3.webp', alt: 'Denting and painting work with computerized color matching' },
   { src: 'images/gallery-4.webp', alt: 'Wheel alignment and tyre service' },
   { src: 'images/gallery-5.webp', alt: 'Clutch and gearbox repair' },
   { src: 'images/gallery-6.webp', alt: 'Suspension and brake service' },
-  { src: 'images/car-wash-detail.webp', alt: 'Interior deep vacuum and detailing service' }
+  { src: 'images/car-wash-detail.webp', alt: 'Interior deep vacuum and detailing service' },
+  { src: 'images/gallery-7.webp', alt: 'Hyundai Creta periodic maintenance at Shiv Automobiles' },
+  { src: 'images/gallery-8.webp', alt: 'Maruti Suzuki Swift complete health checkup' }
 ];
 let lbIndex = 0;
 

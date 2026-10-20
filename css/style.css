@@ -425,57 +425,70 @@ img[src*="gallery"], img[src*="hero-workshop"] {
 }
 .sc-actions {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   margin-top: auto;
-  flex-wrap: wrap;
-  padding-top: 6px;
+  padding-top: 10px;
+  width: 100%;
+}
+.sc-cta {
+  flex: 1 1 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: rgba(37,211,102,0.12);
+  color: #15803d;
+  border: 1.5px solid rgba(37,211,102,0.4);
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-family: var(--ff-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  min-height: 40px;
+  text-decoration: none;
+  transition: all var(--transition);
+}
+.sc-cta svg {
+  flex-shrink: 0;
+}
+.sc-cta:hover {
+  background: var(--clr-wa);
+  color: #fff;
+  border-color: var(--clr-wa);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37,211,102,0.28);
 }
 .sc-link {
-  font-family: var(--ff-sans);
-  font-size: 0.85rem;
-  font-weight: 700;
+  flex: 1 1 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: #f1f5f9;
   color: var(--clr-navy);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  transition: color var(--transition);
+  border: 1.5px solid #cbd5e1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-family: var(--ff-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  min-height: 40px;
+  transition: all var(--transition);
 }
 .sc-link:hover {
-  color: var(--clr-orange);
+  background: var(--clr-navy);
+  color: #fff;
+  border-color: var(--clr-navy);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30,58,95,0.25);
 }
-
-.service-card::after {
-  content: '';
-  position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
-  background: linear-gradient(90deg, var(--clr-orange), var(--clr-orange-l));
-  transform: scaleX(0); transform-origin: left;
-  transition: transform 0.35s ease;
-}
-.service-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); border-color: rgba(232,83,10,0.3); }
-.service-card:hover::after { transform: scaleX(1); }
-
-.sc-icon {
-  font-size: 2.2rem;
-  width: 52px; height: 52px; border-radius: 12px;
-  background: var(--clr-orange-pale);
-  display: flex; align-items: center; justify-content: center;
-  transition: transform var(--transition); flex-shrink: 0;
-}
-.service-card:hover .sc-icon { transform: scale(1.1) rotate(-5deg); }
-
-.sc-title { font-family: var(--ff-sans); font-weight: 700; font-size: 1.05rem; color: var(--clr-navy); }
-.sc-desc  { font-size: 0.875rem; color: var(--clr-text-2); flex: 1; line-height: 1.7; }
-
-.sc-cta {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(37,211,102,0.1); color: #15803d;
-  border: 1px solid rgba(37,211,102,0.35);
-  padding: 8px 16px; border-radius: 8px;
-  font-size: 0.85rem; font-weight: 700;
-  transition: background var(--transition), color var(--transition), transform var(--transition);
-  align-self: flex-start; min-height: 42px;
-}
-.sc-cta:hover { background: var(--clr-wa); color: #fff; border-color: var(--clr-wa); transform: translateX(3px); }
 
 /* ── CAR WASH HIGHLIGHT HERO BANNER ── */
 .wash-banner {

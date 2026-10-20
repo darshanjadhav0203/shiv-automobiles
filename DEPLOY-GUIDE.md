@@ -79,7 +79,7 @@ Login at https://business.google.com
 
 - [ ] Website URL: `https://shivautomobiles.in`
 - [ ] Phone: +91 98343 28635 (exact match with site)
-- [ ] Address: Shivare-Satara Road (SH 30), Naitale, Tal. Niphad, Dist. Nashik, Maharashtra 422303
+- [ ] Address: Chhatrapati Sambhajinagar - Nashik Highway, Naitale, Tal. Niphad, Dist. Nashik, Maharashtra 422303
 - [ ] Category: Primary = `Auto Repair Shop`
 - [ ] Hours: Monday-Sunday 08:00-23:00
 - [ ] Add services in GBP (Car Service, AC Repair, Engine Repair, Denting & Painting, etc.)

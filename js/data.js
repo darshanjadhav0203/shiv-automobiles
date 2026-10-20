@@ -1,6 +1,6 @@
 /* =====================================================
    DATA FILE – Services, Reviews, FAQs
-   Shiv Automobiles – Car Workshop & Washing Centre
+   Shiv Automobiles – Trusted Car Repair & Wash Workshop
    Naitale, Niphad, Nashik
    ===================================================== */
 
@@ -73,6 +73,8 @@ const SERVICES = [
   },
   {
     icon: '🔄',
+    image: 'images/clutch-card.webp',
+    badge: 'अस्सल क्लच सेट',
     mr: 'क्लच &amp; गिअरबॉक्स दुरुस्ती',
     en: 'Clutch &amp; Gearbox Repair',
     hi: 'क्लच और गियरबॉक्स मरम्मत',
@@ -84,6 +86,8 @@ const SERVICES = [
   },
   {
     icon: '🛞',
+    image: 'images/brake-card.webp',
+    badge: 'सुरक्षा तपासणी',
     mr: 'ब्रेक सर्व्हिस &amp; डिस्क टर्निंग',
     en: 'Brake Service &amp; Disc Care',
     hi: 'ब्रेक सर्विस और डिस्क देखभाल',
@@ -95,6 +99,8 @@ const SERVICES = [
   },
   {
     icon: '🌿',
+    image: 'images/suspension-card.webp',
+    badge: 'स्मूद ड्राइव्ह',
     mr: 'सस्पेन्शन &amp; स्टीअरिंग दुरुस्ती',
     en: 'Suspension &amp; Steering Repair',
     hi: 'सस्पेंशन और स्टीयरिंग मरम्मत',
@@ -106,6 +112,8 @@ const SERVICES = [
   },
   {
     icon: '⚡',
+    image: 'images/battery-card.webp',
+    badge: 'बॅटरी & वायरिंग',
     mr: 'इलेक्ट्रिकल, वायरिंग &amp; बॅटरी',
     en: 'Electrical, Wiring &amp; Battery',
     hi: 'इलेक्ट्रिकल, वायरिंग और बैटरी',
@@ -117,6 +125,8 @@ const SERVICES = [
   },
   {
     icon: '🌡️',
+    image: 'images/cooling-card.webp',
+    badge: 'रेडिएटर कुलिंग',
     mr: 'रेडिएटर &amp; कूलिंग सिस्टम',
     en: 'Radiator &amp; Cooling System',
     hi: 'रेडिएटर और कूलिंग सिस्टम',
@@ -128,6 +138,8 @@ const SERVICES = [
   },
   {
     icon: '🔘',
+    image: 'images/tyre-card.webp',
+    badge: 'अचूक अलाइनमेंट',
     mr: 'टायर, पंक्चर &amp; व्हील अलाइनमेंट',
     en: 'Tyres &amp; Wheel Alignment',
     hi: 'टायर और व्हील अलाइनमेंट',
@@ -139,13 +151,14 @@ const SERVICES = [
   },
   {
     icon: '🆘',
+    image: 'images/breakdown-card.webp',
     badge: '२४/७ इमर्जन्सी',
     mr: 'हायवे ब्रेकडाऊन &amp; टोइंग हेल्प',
     en: 'Highway Breakdown &amp; Towing Help',
     hi: 'हाइवे ब्रेकडाउन और सहायता',
-    descMr: 'शिवारे–सातारा रोड (SH 30) किंवा निफाड परिसरात गाडी बंद पडल्यास ऑन-स्पॉट मेकॅनिक मदत व पिकअप सेवा.',
-    descEn: 'On-spot roadside assistance and towing support along SH 30 and Niphad-Nashik rural belts (night charges may apply).',
-    descHi: 'SH 30 या निफाड क्षेत्र में गाड़ी बंद होने पर मौके पर मैकेनिक मदद और पिकअप सेवा (रात्रि शुल्क लागू)।',
+    descMr: 'छत्रपती संभाजीनगर - नाशिक हायवे, नैताळे किंवा निफाड परिसरात गाडी बंद पडल्यास ऑन-स्पॉट मेकॅनिक मदत व पिकअप सेवा.',
+    descEn: 'On-spot roadside assistance and towing support along Chhatrapati Sambhajinagar - Nashik Highway and Niphad rural belts (night charges may apply).',
+    descHi: 'छत्रपति संभाजीनगर - नासिक हाइवे या निफाड क्षेत्र में गाड़ी बंद होने पर मौके पर मैकेनिक मदद और पिकअप सेवा (रात्रि शुल्क लागू)।',
     slug: 'breakdown-help',
     pageUrl: 'car-service.html'
   }
@@ -212,8 +225,8 @@ const FAQS = [
   {
     qMr: 'पिकअप आणि ड्रॉप सेवा उपलब्ध आहे का?',
     qEn: 'Is pickup and drop service available?',
-    aMr: 'होय, आम्ही नैताळे, निफाड, धरणगाव वीर, पिंपळगाव बसवंत, ओझर, लासलगाव, नंदूर मधमेश्वर, रामपूर, कुंडेगाव आणि शिवारे–सातारा रोडवरील गावांमध्ये पिकअप आणि ड्रॉप सेवा देतो.',
-    aEn: 'Yes, we provide pickup and drop service across Naitale, Niphad, Dharangaon Vir, Pimpalgaon Baswant, Ozar, Lasalgaon, Nandur Madhmeshwar, Rampur, Kundegaon and villages along the Shivare–Satara Road.'
+    aMr: 'होय, आम्ही नैताळे, निफाड, धरणगाव वीर, पिंपळगाव बसवंत, ओझर, लासलगाव, नंदूर मधमेश्वर, रामपूर, कुंडेगाव आणि छत्रपती संभाजीनगर - नाशिक हायवेवरील गावांमध्ये पिकअप आणि ड्रॉप सेवा देतो.',
+    aEn: 'Yes, we provide pickup and drop service across Naitale, Niphad, Dharangaon Vir, Pimpalgaon Baswant, Ozar, Lasalgaon, Nandur Madhmeshwar, Rampur, Kundegaon and villages along the Chhatrapati Sambhajinagar - Nashik Highway.'
   },
   {
     qMr: 'कार सर्व्हिसिंग किंवा दुरुस्तीचा खर्च किती येतो?',
